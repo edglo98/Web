@@ -10,9 +10,14 @@
 }
 .section-me_img{
     width:100%;
-    padding: 15px;
+    margin: 15px;
     border-radius: 40px;
     box-sizing: border-box;
+    box-shadow: var(--shadow);
+    transition: box-shadow 0.5s;
+}
+body.dark .section-me_img{
+    box-shadow: var(--darkShadow);
 }
 .title-main{
     font-weight: bold;

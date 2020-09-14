@@ -21,10 +21,10 @@ export default ()=>{
                         <a href="#ME2" className="header-li" >Trabajos</a>
                     </li>
                     <li>
-                        <a href="" className="header-li" >Proyectos</a>
+                        <a href="#ME" className="header-li" >Proyectos</a>
                     </li>
                     <li>
-                        <a href="" className="header-li" >Contacto</a>
+                        <a href="#ME2" className="header-li" >Contacto</a>
                     </li>
                 </ul>
             </nav>

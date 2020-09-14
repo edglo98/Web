@@ -19,7 +19,7 @@ export default () => {
                             Este sitio web es un compendio de lo que he aprendido y creado en los ultimos años. Tambien incluyo cualquier cosa que desee compartir de mi vida. Puedes ver mis proyectos, trabajos y mi vida a traves de mi blog. <hr/><br/> Encantado de conocerte.
                         </h1>
                     </div>
-                    <img src={images.Perfile} className="section-me_img"/>
+                    <img src={images.Perfile} className="section-me_img" alt="Perfile"/>
                 </section>
 
                 <Divider
