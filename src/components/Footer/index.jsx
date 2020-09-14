@@ -11,19 +11,19 @@ export default () => {
                         Enlaces sociales:
                     </p>
                     <div className="futter-social">
-                        <a href="https://github.com/edglo98" className="footer-social_linksanimation">
+                        <a href="https://github.com/edglo98" className="footer-social_linksanimation" target="_blank">
                             <span style={{mask: `url(${icons.Github})`}} className="footer-socials_links" alt="Github"/>
                         </a>
-                        <a href="www.linkedin.com/in/edglo" className="footer-social_linksanimation">
+                        <a href="www.linkedin.com/in/edglo" className="footer-social_linksanimation" target="_blank">
                             <span style={{mask: `url(${icons.Linkedin})`}} className="footer-socials_links" alt="Linkedin"/>
                         </a>
-                        <a href="https://www.instagram.com/edglo98/" className="footer-social_linksanimation">
+                        <a href="https://www.instagram.com/edglo98/" className="footer-social_linksanimation" target="_blank">
                             <span style={{mask: `url(${icons.Instagram})`}} className="footer-socials_links" alt="Instagram"/>
                         </a>
-                        <a href="https://twitter.com/imnotpeace" className="footer-social_linksanimation">
+                        <a href="https://twitter.com/imnotpeace" className="footer-social_linksanimation" target="_blank">
                             <span style={{mask: `url(${icons.Twitter})`}} className="footer-socials_links" alt="twitter"/>
                         </a>
-                        <a href="https://www.youtube.com/channel/UCNNpd_fcLDoQ1D3Pg2RR4pQ?view_as=subscriber" className="footer-social_linksanimation">
+                        <a href="https://www.youtube.com/channel/UCNNpd_fcLDoQ1D3Pg2RR4pQ?view_as=subscriber" className="footer-social_linksanimation" target="_blank">
                             <span style={{mask: `url(${icons.Youtube})`}} className="footer-socials_links" alt="Youtube"/>
                         </a>
                     </div>

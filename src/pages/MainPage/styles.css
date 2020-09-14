@@ -1,5 +1,30 @@
 .mainContainer{
-    max-width: 1200px;
+    max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
+    padding: 30px;
+}
+.section-me{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.section-me_img{
+    width:100%;
+    padding: 15px;
+    border-radius: 40px;
+    box-sizing: border-box;
+}
+.title-main{
+    font-weight: bold;
+    font-size: 50px;
+}
+.tittle-secondary{
+    padding: 0px 10px;
+    line-height: 35px;
+    font-weight: 800;
+    font-size: 25px;
+}
+.tittle-secondary::first-letter{
+    font-size: 45px;
+    float: left;
 }
