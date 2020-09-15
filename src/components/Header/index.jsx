@@ -1,6 +1,7 @@
-import React from "react"
-import "./styles.css"
-import SwitchTheme from "../SwitchTheme"
+import React from "react";
+import "./styles.css";
+import SwitchTheme from "../SwitchTheme";
+import {Link} from "react-router-dom";
 
 export default ()=>{
     return(
@@ -15,16 +16,24 @@ export default ()=>{
             <nav>
                 <ul className="header-ul">
                     <li >
-                        <a href="#ME" className="header-li" >Sobre mi</a>
+                        <Link to="/about" className="header-li">
+                            Sobre mi
+                        </Link>
                     </li>
                     <li>
-                        <a href="#ME2" className="header-li" >Trabajos</a>
+                        <Link to="/work" className="header-li">
+                            Trabajos
+                        </Link>
                     </li>
                     <li>
-                        <a href="#ME" className="header-li" >Proyectos</a>
+                        <Link to="/projects" className="header-li">
+                            Proyectos
+                        </Link>
                     </li>
                     <li>
-                        <a href="#ME2" className="header-li" >Contacto</a>
+                        <Link to="/contact" className="header-li">
+                            Contacto
+                        </Link>
                     </li>
                 </ul>
             </nav>
