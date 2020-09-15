@@ -1,39 +1,46 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./styles.css";
 import SwitchTheme from "../SwitchTheme";
-import {Link} from "react-router-dom";
+import {NavLink, NavNavLink} from "react-router-dom";
+import Logo from "../Logo";
 
 export default ()=>{
+    const routes = {
+        Main: "/",
+        About: "/about",
+        Work: "/work",
+        Projects: "/projects",
+        Contact: "/contact",
+    }
     return(
         <header className="header" id="header">
-            <span  className="header-logo">
-                <span className="logo"/>
-                <div className="header-logo_text">
-                    <span>EDGAR</span>
-                    <span>&nbsp;&nbsp; LÓPEZ</span>
-                </div>
-            </span>
+            <Logo/>
             <nav>
                 <ul className="header-ul">
+                    <li>
+                        <NavLink exact to={routes.Main} className="header-li" activeClassName="header-li_active" >
+                            Inicio
+                        </NavLink>
+                    </li>
                     <li >
-                        <Link to="/about" className="header-li">
+                        <NavLink exact to={routes.About} className="header-li" activeClassName="header-li_active">
                             Sobre mi
-                        </Link>
+                        </NavLink>
                     </li>
                     <li>
-                        <Link to="/work" className="header-li">
+                        <NavLink exact to={routes.Work} className="header-li" activeClassName="header-li_active">
                             Trabajos
-                        </Link>
+                        </NavLink>
                     </li>
                     <li>
-                        <Link to="/projects" className="header-li">
+                        <NavLink exact to={routes.Projects} className="header-li" activeClassName="header-li_active">
                             Proyectos
-                        </Link>
+                        </NavLink>
                     </li>
                     <li>
-                        <Link to="/contact" className="header-li">
+                        <NavLink exact to={routes.Contact} className="header-li" activeClassName="header-li_active">
                             Contacto
-                        </Link>
+                        </NavLink>
                     </li>
                 </ul>
             </nav>

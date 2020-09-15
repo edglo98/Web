@@ -9,11 +9,14 @@ import AboutPage from './pages/AboutPage';
 import WorkPage from './pages/WorkPage';
 import ProjectsPage from './pages/ProjectsPage';
 import ContactPage from './pages/ContactPage';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
       <Router>
+        <Header/>
         <Switch>
           <Route path="/about">
             <AboutPage/>
@@ -31,6 +34,7 @@ function App() {
             <MainPage/>
           </Route>
         </Switch>
+        <Footer/>
       </Router>
     </>
   );

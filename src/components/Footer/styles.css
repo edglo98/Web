@@ -6,35 +6,37 @@
     align-items: center;
     box-sizing: border-box;
     flex-direction: column;
-    background-color: #FFCA3E;
+    background-color: var(--orange);
+    color: var(--dark);
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .footer-socialmedia{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 30px 40px;
-}
-.footer-content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 15px 40px;
 }
 .futter-social{
-    width: 200px;
-    margin: 0px 20px;
+    width: 350px;
+    margin: 10px 0px;
     display: flex;
     justify-content: space-around;
 }
 .footer-socials_links{
-    width: 30px;
-    height: 30px;
-    background-color: #FF3D58;
+    width: 50px;
+    height: 50px;
+    background-color: var(--red);
     mask-size: cover!important;
     transition: background-color 0.5s;
 }
 .footer-socials_links:hover{
-    background-color: #FFCA3E;
+    background-color: var(--orange);
 }
 .footer-social_linksanimation{
     display: flex;
@@ -50,7 +52,7 @@
     height: 100%;
     border-radius: 50%;
     position: absolute;
-    background-color: #FF3D58;
+    background-color: var(--red);
     box-sizing: border-box;
     transition: transform 0.5s;
     transform: scale(0);
@@ -61,16 +63,14 @@
 }
 .footer-Social_text{
     font-weight: bold;
+    font-size: 20px;
 }
 
-.footer-copy{
-    bottom: -20px;
-    position: relative;
-    font-size: 13px;
-}
+
+
 .footer-form{
-    width: 250px;
-    margin: 10px 40px;
+    width: 350px;
+    margin: 5px 40px;
     display: grid;
 }
 .footer-inputs{
@@ -84,7 +84,7 @@
     box-sizing: border-box;
 }
 .footer-inputs:focus{
-    border: 2px solid #FF3D58;
+    border: 2px solid var(--red);
 }
 .footer-textarea{
     height: 100px;
@@ -95,7 +95,7 @@
     font-weight: 600;
     min-width: 100px;
     min-height: 25px;
-    background-color: #FF3D58;
+    background-color: var(--red);
     color: white;
     border-radius: 7px;
     border: none;
@@ -118,4 +118,14 @@
 .footer-form_button:hover::after{
     transform: scale(1);
     box-shadow: 0px 1px 2px 3px #FF3D5880;
+}
+
+
+
+.footer-copy{
+    bottom: -20px;
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
 }

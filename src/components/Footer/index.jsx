@@ -29,7 +29,7 @@ export default () => {
                     </div>
                 </div>
                 <form className="footer-form">
-                    <p>Contactate conmigo a travez de tu correo electronico</p>
+                    <h4>Contactate conmigo a travez de tu correo electronico</h4>
                     <input type="text" className="footer-inputs" placeholder="Correo"/>
                     <textarea className="footer-textarea footer-inputs" placeholder="Razón de contacto"/>
                     <button className="footer-form_button">Enviar</button>

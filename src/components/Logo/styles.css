@@ -1,0 +1,28 @@
+.header-logo_img {
+    background-image: url("https://avatars0.githubusercontent.com/u/52474257?s=400&u=dfe6025e5d35753fa04e2c7f7bd03898a8d34501&v=4");
+    background-size: cover;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid black;
+    transition: border 0.5s;
+}
+body.dark .logo{
+    border: 1px solid white;
+}
+.header-logo{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+.header-logo_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 10px;
+    position: relative;
+    top: 7px;
+}

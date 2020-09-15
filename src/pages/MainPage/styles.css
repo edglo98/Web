@@ -4,9 +4,12 @@
     margin-right: auto;
     padding: 30px;
 }
+
+
 .section-me{
     display: grid;
     grid-template-columns: 2fr 1fr;
+    margin: 50px 0px 100px 0px;
 }
 .section-me_img{
     width:100%;
@@ -15,13 +18,14 @@
     box-sizing: border-box;
     box-shadow: var(--shadow);
     transition: box-shadow 0.5s;
+    align-self: center;
 }
 body.dark .section-me_img{
     box-shadow: var(--darkShadow);
 }
 .title-main{
     font-weight: bold;
-    font-size: 50px;
+    font-size: 56px;
 }
 .tittle-secondary{
     padding: 0px 10px;
@@ -32,4 +36,44 @@ body.dark .section-me_img{
 .tittle-secondary::first-letter{
     font-size: 45px;
     float: left;
+}
+
+
+.section-abilities{
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    column-gap: 10px;
+    margin: 50px 0px;
+}
+.abilities-tech{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.abilities-tech__technologies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.abilities-tech__item{
+    display: block;
+    margin: 5px 10px;
+    width: 70px;
+    height: 70px;
+    mask-size: cover!important;
+    background-color: var(--red);
+}
+.abilities-languages{
+    justify-self: center;
+    width: 100%;
+}
+.abilities-languages_item{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }

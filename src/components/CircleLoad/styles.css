@@ -10,7 +10,7 @@
     stroke-dasharray: 360px 360px;
     transition: 0.35s stroke-dashoffset;
     stroke-linecap: round;
-    stroke: var(--orange);
+    stroke: var(--red);
     filter: drop-shadow( var(--shadow) );
     -webkit-filter: drop-shadow( var(--shadow) );
 }

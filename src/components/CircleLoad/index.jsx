@@ -2,7 +2,7 @@ import React from "react"
 import "./styles.css"
 
 export default (props) => {
-    let radius = 35;
+    let radius = 40;
     const height= 100
     const width=100
     let circumference = (radius * 2) * Math.PI;
@@ -15,14 +15,14 @@ export default (props) => {
             >
                 <circle
                     stroke="#CCC"
-                    strokeWidth="7"
+                    strokeWidth="8"
                     fill="transparent"
                     r={radius}
                     cx={height/2}
                     cy={width/2}
                 />
                 <circle
-                    strokeWidth="8"
+                    strokeWidth="9"
                     fill="transparent"
                     r={radius}
                     cx={height/2}

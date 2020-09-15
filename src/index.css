@@ -2,8 +2,12 @@
   --font: #474842;
   --dark:  #1E1E1E;
   --orange: #FFCA3E;
+  --red: #FF3D58;
   --darkShadow: 0px 0px 10px 2px #FFFFFF30;
   --shadow: 0px 0px 5px 2px #00000040;
+}
+*{
+  box-sizing: border-box;
 }
 body {
   color: var(--font);
@@ -38,8 +42,13 @@ hr{
   margin: 0;
   padding: 0;
 }
-
 body.dark{
   color: white;
   background-color: var(--dark);
+}
+
+.linkRedirect{
+  color: var(--red);
+  cursor: pointer;
+  text-decoration: underline solid var(--red);
 }
