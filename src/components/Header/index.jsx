@@ -12,10 +12,15 @@ export default ()=>{
         Projects: "/projects",
         Contact: "/contact",
     }
+    const [menuOpen, setMenuOpen] = useState(false)
+    const menuToggle = ()=>{
+        setMenuOpen(!menuOpen)
+    }
+
     return(
         <header className="header" id="header">
             <Logo/>
-            <nav>
+            <nav className={`header-navbar ${menuOpen? "header-navbar_active" : null }`}>
                 <ul className="header-ul">
                     <li>
                         <NavLink exact to={routes.Main} className="header-li" activeClassName="header-li_active" >
@@ -43,8 +48,9 @@ export default ()=>{
                         </NavLink>
                     </li>
                 </ul>
+                <SwitchTheme/>
             </nav>
-            <SwitchTheme/>
+            <span onClick={menuToggle} className={`header-hamburguer_menu `}>🍔</span>
         </header>
     )
 }

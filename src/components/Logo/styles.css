@@ -26,3 +26,17 @@ body.dark .logo{
     position: relative;
     top: 7px;
 }
+
+@media (max-width:800px){
+    .header-logo{
+        position: relative;
+        top: 5%;
+    }
+    .header-logo_img{
+        height: 55px;
+        width: 55px;
+    }
+    .header-logo_text{
+        font-size: 21px;
+    }
+}
