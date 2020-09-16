@@ -1,9 +1,8 @@
 import React from "react"
+import BuildPage from "../BuildPage"
 
 export default () => {
     return(
-        <div>
-            Work
-        </div>
+        <BuildPage/>
     )
 }
