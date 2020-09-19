@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./styles.css";
 import SwitchTheme from "../SwitchTheme";
-import {NavLink, NavNavLink} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import Logo from "../Logo";
 
 export default ()=>{
@@ -50,7 +50,7 @@ export default ()=>{
                 </ul>
                 <SwitchTheme/>
             </nav>
-            <span onClick={menuToggle} className={`header-hamburguer_menu `}>🍔</span>
+            <span role="img" aria-label="" onClick={menuToggle} className={`header-hamburguer_menu `}>🍔</span>
         </header>
     )
 }

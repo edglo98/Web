@@ -14,6 +14,8 @@ import Css from "./css3.svg"
 import Csharp from "./csharp.svg"
 import Dart from "./dart.svg"
 import Git from "./git.svg"
+import Php from "./php.svg"
+import Sql from "./sql.svg"
 
 export default{
     Github,
@@ -32,4 +34,6 @@ export default{
     Csharp,
     Dart,
     Git,
+    Php,
+    Sql
 }

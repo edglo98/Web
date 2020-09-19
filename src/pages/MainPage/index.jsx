@@ -14,11 +14,29 @@ export default () => {
           </h1>
           <h1 className="tittle-secondary">
             Este sitio web es un compendio de lo que he aprendido y creado en
-            los ultimos años. Tambien incluyo cualquier cosa que desee
-            compartir de mi vida. Puedes ver mi{" "}
-            <a className="linkRedirect">trabajo</a>☕,{" "}
-            <a className="linkRedirect">proyectos</a>💻 y un poco de mi vida a
-            traves de mi <a className="linkRedirect">blog.</a>🌍 <hr />
+            los ultimos años. Tambien incluyo cualquier cosa que desee compartir
+            de mi vida. Puedes ver mi{" "}
+            <a className="linkRedirect" href="/">
+              trabajo
+            </a>
+            <span role="img" aria-label="">
+              ☕
+            </span>
+            ,{" "}
+            <a className="linkRedirect" href="/">
+              proyectos
+            </a>{" "}
+            <span role="img" aria-label="">
+              💻
+            </span>{" "}
+            y un poco de mi vida a traves de mi{" "}
+            <a className="linkRedirect" href="/">
+              blog.
+            </a>{" "}
+            <span role="img" aria-label="">
+              🌍
+            </span>{" "}
+            <hr />
             <br /> Encantado de conocerte.
           </h1>
           <div className="section-me_containerImg">
@@ -33,7 +51,10 @@ export default () => {
             <h1>
               He desarrollado en diferentes lenguajes de programacion y
               tecnologias desde los 19 años, algunos de ellos son los siguientes
-              👨‍💻:
+              <span role="img" aria-label="">
+                👨‍💻
+              </span>
+              :
             </h1>
             <div className="abilities-tech__technologies">
               <span
@@ -108,20 +129,54 @@ export default () => {
                 }}
                 className="abilities-tech__item"
               />
+              <span
+                style={{
+                  mask: `url(${icons.Php})`,
+                  maskSize: "cover",
+                  WebkitMaskImage: `url(${icons.Php})`,
+                  WebkitMaskSize: "cover",
+                }}
+                className="abilities-tech__item"
+              />
+              <span
+                style={{
+                  mask: `url(${icons.Sql})`,
+                  maskSize: "cover",
+                  WebkitMaskImage: `url(${icons.Sql})`,
+                  WebkitMaskSize: "cover",
+                }}
+                className="abilities-tech__item"
+              />
             </div>
           </div>
           <div className="abilities-languages">
             <h1>Tambien hablo algunos idiomas:</h1>
             <div className="abilities-languages_item">
-              <h3>&#x1f1f2;&#x1f1fd; Español (Nativo)</h3>
+              <h3>
+                {" "}
+                <span role="img" aria-label="">
+                  &#x1f1f2;&#x1f1fd;
+                </span>{" "}
+                Español (Nativo)
+              </h3>
               <CircleLoad porcent={90} />
             </div>
             <div className="abilities-languages_item">
-              <h3>&#x1f1eb;&#x1f1f7; Frances (B1)</h3>
+              <h3>
+                <span role="img" aria-label="">
+                  &#x1f1eb;&#x1f1f7;
+                </span>{" "}
+                Frances (B1)
+              </h3>
               <CircleLoad porcent={45} />
             </div>
             <div className="abilities-languages_item">
-              <h3>&#x1f1fa;&#x1f1f8; Ingles (B1)</h3>
+              <h3>
+                <span role="img" aria-label="">
+                  &#x1f1fa;&#x1f1f8;
+                </span>{" "}
+                Ingles (B1)
+              </h3>
               <CircleLoad porcent={40} />
             </div>
           </div>
