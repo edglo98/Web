@@ -27,19 +27,19 @@ export default ()=>{
                             Inicio
                         </NavLink>
                     </li>
-                    <li >
-                        <NavLink exact to={routes.About} className="header-li" activeClassName="header-li_active">
-                            Sobre mi
-                        </NavLink>
-                    </li>
                     <li>
                         <NavLink exact to={routes.Work} className="header-li" activeClassName="header-li_active">
-                            Trabajos
+                            Trabajo
                         </NavLink>
                     </li>
                     <li>
                         <NavLink exact to={routes.Projects} className="header-li" activeClassName="header-li_active">
-                            Proyectos
+                            Blog
+                        </NavLink>
+                    </li>
+                    <li >
+                        <NavLink exact to={routes.About} className="header-li" activeClassName="header-li_active">
+                            Sobre mi
                         </NavLink>
                     </li>
                     <li>

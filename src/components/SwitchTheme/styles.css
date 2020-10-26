@@ -2,17 +2,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 85px;
+    width: 90px;
     height: 35px;
     border-radius: 20px;
     border: 2px solid grey;
     align-self: center;
-    justify-self: flex-end;
     margin-right: 15px;
     cursor: pointer;
     position: relative;
     box-sizing: border-box;
     background-color: rgb(241, 241, 134);
+}
+.swtchtheme-button__darkBG{
+    background-color: #474842;
 }
 .switchtheme-circle{
     content: "";
@@ -22,14 +24,11 @@
     background-color: rgb(241, 239, 239);
     border-radius: 50%;
     box-shadow: 0px 1px 3px 4px #00000050;
-    transition: right 0.5s, left 0.5s;
-    right: -2px;
-}
-.swtchtheme-button__darkBG{
-    background-color: #474842!important;
+    transition: left 0.3s;
+    left: 55%;
 }
 .swtchtheme-circle_darkX{
-    left: -2px!important;
+    left: -2px;
 }
 .switchtheme-button_img{
     width: 27px;

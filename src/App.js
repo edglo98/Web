@@ -17,23 +17,23 @@ function App() {
     <>
       <Router>
         <Header/>
-        <Switch>
-          <Route path="/about">
-            <AboutPage/>
-          </Route>
-          <Route path="/work">
-            <WorkPage/>
-          </Route>
-          <Route path="/projects">
-            <ProjectsPage/>
-          </Route>
-          <Route path="/contact">
-            <ContactPage/>
-          </Route>
-          <Route path="/">
-            <MainPage/>
-          </Route>
-        </Switch>
+          <Switch>
+            <Route path="/about">
+              <AboutPage/>
+            </Route>
+            <Route path="/work">
+              <WorkPage/>
+            </Route>
+            <Route path="/projects">
+              <ProjectsPage/>
+            </Route>
+            <Route path="/contact">
+              <ContactPage/>
+            </Route>
+            <Route path="/">
+              <MainPage/>
+            </Route>
+          </Switch>
         <Footer/>
       </Router>
     </>

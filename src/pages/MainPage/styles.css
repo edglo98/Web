@@ -68,14 +68,6 @@ body.dark .section-me_containerImg{
     justify-content: flex-start;
     align-items: center;
 }
-.abilities-tech__item{
-    display: block;
-    margin: 5px 10px;
-    width: 70px;
-    height: 70px;
-    mask-size: cover!important;
-    background-color: var(--red);
-}
 .abilities-languages{
     justify-self: center;
     width: 100%;
@@ -144,9 +136,5 @@ body.dark .section-me_containerImg{
         grid-template-columns: repeat(4,1fr);
         justify-items: center;
         align-items: center;
-    }
-    .abilities-tech__item{
-        width: 52px;
-        height: 52px;
     }
 }
